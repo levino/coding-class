@@ -10,6 +10,16 @@ Willkommen beim Coding-Kurs für Kinder! Diese Seite enthält alle wichtigen Inf
 
 Dieser **kostenlose** Kurs vermittelt Kindern die Grundlagen der Softwareentwicklung auf eine praktische und altersgerechte Weise. Der Fokus liegt auf modernen Entwicklungswerkzeugen und -methoden, die auch in der professionellen Softwareentwicklung verwendet werden.
 
+### Für wen ist dieser Kurs?
+
+Dieser Kurs richtet sich **vorrangig an Kinder, deren Eltern mich persönlich kennen**. Dazu gehören zum Beispiel:
+
+- Klassenkamerad:innen meiner eigenen Kinder
+- Kinder von Eltern aus meinem persönlichen Umfeld (z.B. aus dem Dorf, in dem ich wohne)
+- Kinder von Freund:innen und Bekannten
+
+Der Kurs ist bewusst als **persönliches Angebot** konzipiert und basiert auf Vertrauen und direktem Kontakt. Dies ermöglicht eine enge Betreuung und individuelle Unterstützung.
+
 ### Warum nicht Scratch, Blockly oder ähnliche visuelle Tools?
 
 Viele Kinder-Programmierkurse nutzen visuelle Programmierumgebungen wie Scratch. Das ist ein guter erster Kontakt mit Programmierkonzepten, führt aber oft in die **"Scratch-Falle"**:
@@ -43,16 +53,18 @@ Für diesen Kurs wird **zwingend ein Unix-basiertes Betriebssystem** benötigt:
 - ✅ **macOS** (alle aktuellen Versionen) - funktioniert gut
 - ⚠️ **Windows** - **NUR als Notlösung** mit WSL 2
 
-**Warum Linux?**
+:::tip Warum Linux?
 - Professionelle Entwickler arbeiten hauptsächlich mit Linux/macOS
 - Alle wichtigen Server laufen mit Linux
 - Bessere Terminal-Integration und Tool-Unterstützung
 - Windows mit WSL funktioniert zwar, ist aber eine Kompromisslösung mit gelegentlichen Problemen
+:::
 
-**Wenn ihr nur einen Windows-PC habt:**
+:::warning Wenn ihr nur einen Windows-PC habt
 - WSL 2 ist möglich, aber nicht ideal
 - Besser: Einen günstigen Linux-Rechner besorgen (siehe unten)
 - Oder: Alten Computer mit Linux neu aufsetzen
+:::
 
 ### Empfohlene Hardware-Lösung
 
@@ -74,11 +86,13 @@ Für diesen Kurs wird **zwingend ein Unix-basiertes Betriebssystem** benötigt:
 - ❌ **Smartphones** - **keine Kursteilnahme möglich**
 - ❌ **Chromebooks** (eingeschränkt, nicht empfohlen)
 
-**Warum?** Programmieren erfordert:
+:::danger Warum keine Tablets?
+Programmieren erfordert:
 - Schnelles Tippen mit beiden Händen
 - Präzise Maussteuerung
 - Viele Tastenkombinationen (Shortcuts)
 - Mehrere Fenster gleichzeitig im Blick
+:::
 
 ### Mindestanforderungen
 
