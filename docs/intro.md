@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 # Willkommen beim Coding-Kurs! 👋
@@ -20,14 +21,14 @@ In diesem Kurs lernst du nicht nur irgendeine Programmiersprache. Du lernst:
 
 Du bist neu hier? Super! Schau dir diese Seiten an:
 
-1. **[Kursinhalte](/docs/kurs-inhalte)** - Was lernst du im Kurs?
+1. **[Kursinhalte](/kurs-inhalte)** - Was lernst du im Kurs?
 2. **[Erste Schritte](#erste-schritte)** - Wie geht es los?
 
 ### Für Eltern
 
-Möchten Sie mehr über den Kurs erfahren?
+Möchtest du mehr über den Kurs erfahren?
 
-- **[Info für Eltern](/docs/info-fuer-eltern)** - Alle Details zu Format, Hardware und Inhalten
+- **[Info für Eltern](/info-fuer-eltern)** - Alle Details zu Format, Hardware und Inhalten
 
 ## 🛠️ Erste Schritte
 
@@ -78,7 +79,7 @@ Regelmäßig treffen sich alle Schüler:innen:
 - **VS Code** - Deine Entwicklungsumgebung
 - **Typst** - Schöne Dokumente mit Code erstellen
 
-➡️ **[Mehr zu den Kursinhalten](/docs/kurs-inhalte)**
+➡️ **[Mehr zu den Kursinhalten](/kurs-inhalte)**
 
 ### Phase 2: Web-Entwicklung (Später)
 - **React** - Websites programmieren
@@ -112,7 +113,7 @@ Es gibt **keine dummen Fragen**. Wenn du etwas nicht verstehst, frag nach!
 - **GitHub Discussions** - [Hier diskutieren](https://github.com/levino/coding-class/discussions)
 
 ### Für Eltern
-- Siehe [Info für Eltern](/docs/info-fuer-eltern) für Kontaktmöglichkeiten
+- Siehe [Info für Eltern](/info-fuer-eltern) für Kontaktmöglichkeiten
 
 ---
 

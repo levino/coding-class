@@ -8,7 +8,18 @@ Willkommen beim Coding-Kurs für Kinder! Diese Seite enthält alle wichtigen Inf
 
 ## Kursüberblick
 
-Dieser Kurs vermittelt Kindern die Grundlagen der Softwareentwicklung auf eine praktische und altersgerechte Weise. Der Fokus liegt auf modernen Entwicklungswerkzeugen und -methoden, die auch in der professionellen Softwareentwicklung verwendet werden.
+Dieser **kostenlose** Kurs vermittelt Kindern die Grundlagen der Softwareentwicklung auf eine praktische und altersgerechte Weise. Der Fokus liegt auf modernen Entwicklungswerkzeugen und -methoden, die auch in der professionellen Softwareentwicklung verwendet werden.
+
+### Warum nicht Scratch, Blockly oder ähnliche visuelle Tools?
+
+Viele Kinder-Programmierkurse nutzen visuelle Programmierumgebungen wie Scratch. Das ist ein guter erster Kontakt mit Programmierkonzepten, führt aber oft in die **"Scratch-Falle"**:
+
+- Kinder verbringen Jahre mit visuellen Block-Systemen
+- Der Übergang zu echtem Code (Text-basiert) ist dann ein riesiger, frustrierender Sprung
+- Viele geben auf, weil sie wieder "von vorne" anfangen müssen
+- Professionelle Entwicklung verwendet **keine** visuellen Block-Systeme
+
+**Unser Ansatz:** Wir starten direkt mit den echten Tools, die professionelle Entwickler täglich nutzen. Das mag am Anfang etwas steiler sein, aber dein Kind lernt von Anfang an die richtigen Werkzeuge und Arbeitsweisen. Keine Zeit wird verschwendet, alles Gelernte ist direkt auf echte Softwareentwicklung übertragbar.
 
 ## Kursformat
 
@@ -24,32 +35,64 @@ Der Unterricht wird durch individuelles Feedback auf GitHub-Plattform begleitet.
 
 ## Hardware-Anforderungen
 
-### Betriebssystem
-Für den Kurs wird ein **Unix-basiertes Betriebssystem** benötigt:
+### Betriebssystem - Linux ist Pflicht!
 
-- ✅ **Linux** (beliebige Distribution)
-- ✅ **macOS** (alle aktuellen Versionen)
-- ⚠️ **Windows** nur mit **WSL** (Windows Subsystem for Linux)
+Für diesen Kurs wird **zwingend ein Unix-basiertes Betriebssystem** benötigt:
 
-### Empfohlene Hardware
-Wir empfehlen das **Raspberry Pi 500 Set** mit Monitor:
-- **Raspberry Pi 500** (Computer)
-- **Raspberry Pi Monitor**
+- ✅ **Linux** (Ubuntu, Debian, Fedora, etc.) - **STARK EMPFOHLEN**
+- ✅ **macOS** (alle aktuellen Versionen) - funktioniert gut
+- ⚠️ **Windows** - **NUR als Notlösung** mit WSL 2
+
+**Warum Linux?**
+- Professionelle Entwickler arbeiten hauptsächlich mit Linux/macOS
+- Alle wichtigen Server laufen mit Linux
+- Bessere Terminal-Integration und Tool-Unterstützung
+- Windows mit WSL funktioniert zwar, ist aber eine Kompromisslösung mit gelegentlichen Problemen
+
+**Wenn ihr nur einen Windows-PC habt:**
+- WSL 2 ist möglich, aber nicht ideal
+- Besser: Einen günstigen Linux-Rechner besorgen (siehe unten)
+- Oder: Alten Computer mit Linux neu aufsetzen
+
+### Empfohlene Hardware-Lösung
+
+**Raspberry Pi 500 Set (~150-200 EUR):**
+- Komplett-System mit Computer und Monitor
+- Kommt fertig mit Linux eingerichtet
 - Vollständig ausreichend für alle Kursinhalte
-- Kostengünstige Lösung (~150-200 EUR)
-- Bereits fertig eingerichtet mit Linux
+- Kostengünstig und pädagogisch wertvoll
+- Genau das gleiche System, das andere Kursteilnehmer verwenden
 
-### Alternative Hardware
-Jeder Computer mit ausreichender Leistung ist geeignet:
-- Mindestens 4 GB RAM
+### Eingabegeräte - WICHTIG!
+
+**Zwingend erforderlich:**
+- ✅ **Tastatur** (physisch, keine Bildschirmtastatur)
+- ✅ **Maus** oder Trackpad
+
+**NICHT geeignet:**
+- ❌ **Tablets** (iPad, Android-Tablets) - **keine Kursteilnahme möglich**
+- ❌ **Smartphones** - **keine Kursteilnahme möglich**
+- ❌ **Chromebooks** (eingeschränkt, nicht empfohlen)
+
+**Warum?** Programmieren erfordert:
+- Schnelles Tippen mit beiden Händen
+- Präzise Maussteuerung
+- Viele Tastenkombinationen (Shortcuts)
+- Mehrere Fenster gleichzeitig im Blick
+
+### Mindestanforderungen
+
+Falls ihr bereits einen Computer habt:
+- Mindestens 4 GB RAM (besser 8 GB)
 - Mindestens 20 GB freier Speicherplatz
-- Internetverbindung
+- Stabile Internetverbindung
+- **Physische Tastatur und Maus**
 
 ## Technische Voraussetzungen
 
 ### Fernzugriff
 Für technischen Support und Hilfestellung benötigen wir:
-- **Fernzugriff** auf das Gerät des Kindes
+- **Fernzugriff** auf das Gerät deines Kindes
 - **Eigenen Administrator-Account** auf dem Gerät
 - Dies ermöglicht schnelle Problemlösung ohne persönlichen Besuch
 
@@ -59,7 +102,7 @@ Falls noch nicht vorhanden, muss vor Kursbeginn installiert werden:
 - **Git** (Versionskontrolle)
 - Bei Windows: **WSL 2** (Windows Subsystem for Linux)
 
-Unterstützung bei der Installation wird beim Onboarding bereitgestellt.
+Unterstützung bei der Installation bekommst du beim Onboarding.
 
 ## Lerninhalte
 
@@ -135,7 +178,7 @@ Jedes Kind lernt in seinem eigenen Tempo:
 
 ## Kosten
 
-*[Hier können Sie Ihre Preisinformationen einfügen]*
+Der Kurs ist **komplett kostenlos**. Es fallen keine Kursgebühren an.
 
 ## Support & Kommunikation
 
@@ -144,7 +187,7 @@ Jedes Kind lernt in seinem eigenen Tempo:
 - Video-Calls nach Vereinbarung
 
 ### Für organisatorische Fragen
-- *[Ihre bevorzugte Kontaktmethode einfügen]*
+- GitHub Discussions oder direkter Kontakt
 
 ## Häufig gestellte Fragen
 
@@ -154,8 +197,8 @@ Nein! Der Kurs startet bei null und erklärt alle Konzepte von Grund auf.
 ### Wie viel Unterstützung braucht mein Kind?
 Am Anfang ist etwas Unterstützung bei der Einrichtung nötig. Danach sollen die Kinder zunehmend selbstständig arbeiten. Hilfe ist aber jederzeit verfügbar.
 
-### Was ist, wenn wir nur einen Windows-Computer haben?
-Das ist kein Problem! Wir installieren WSL (Windows Subsystem for Linux) zusammen beim Onboarding. Dies ist kostenlos und einfach zu installieren.
+### Wir haben nur einen Windows-Computer. Geht das trotzdem?
+WSL 2 funktioniert als Notlösung, ist aber nicht ideal. Wir empfehlen stark, einen günstigen Linux-Rechner anzuschaffen (z.B. Raspberry Pi 500 für ~150-200 EUR). Die bessere Linux-Unterstützung macht das Lernen deutlich reibungsloser.
 
 ### Kann mein Kind auch schneller oder langsamer voranschreiten?
 Absolut! Jedes Kind arbeitet in seinem eigenen Tempo. Es gibt keinen festen Lehrplan mit Deadlines.
@@ -166,6 +209,9 @@ Dank Fernzugriff können die meisten Probleme schnell gelöst werden. Bei größ
 ### Muss ich als Elternteil technische Kenntnisse haben?
 Nein, das ist nicht notwendig. Alle technischen Aspekte werden über den Fernzugriff oder in Video-Calls geklärt.
 
+### Kann mein Kind auf einem Tablet teilnehmen?
+Nein, leider nicht. Tablets (iPad, Android) sind für Programmierung grundsätzlich ungeeignet. Es wird zwingend ein Computer mit physischer Tastatur und Maus benötigt.
+
 ## Datenschutz
 
 - Alle Arbeiten der Kinder werden in einem **privaten GitHub-Repository** gespeichert
@@ -174,10 +220,10 @@ Nein, das ist nicht notwendig. Alle technischen Aspekte werden über den Fernzug
 
 ## Los geht's!
 
-Wenn Sie bereit sind, Ihr Kind anzumelden:
+Wenn du bereit bist, dein Kind anzumelden:
 
-1. Stellen Sie sicher, dass die Hardware-Anforderungen erfüllt sind
-2. Bereiten Sie den Fernzugriff vor (wir helfen dabei)
-3. Melden Sie sich für ein Onboarding-Gespräch an
+1. Stelle sicher, dass die Hardware-Anforderungen erfüllt sind
+2. Bereite den Fernzugriff vor (wir helfen dabei)
+3. Melde dich für ein Onboarding-Gespräch
 
-Wir freuen uns darauf, Ihr Kind auf seiner Coding-Reise zu begleiten!
+Wir freuen uns darauf, dein Kind auf seiner Coding-Reise zu begleiten!

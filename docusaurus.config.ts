@@ -41,27 +41,14 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/', // Docs-only mode: docs are at the root
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/levino/coding-class/edit/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/levino/coding-class/edit/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false, // Disable blog for now
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -85,7 +72,6 @@ const config: Config = {
           position: 'left',
           label: 'Kursmaterial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/levino/coding-class',
           label: 'GitHub',
@@ -101,11 +87,11 @@ const config: Config = {
           items: [
             {
               label: 'Kursinhalte',
-              to: '/docs/kurs-inhalte',
+              to: '/kurs-inhalte',
             },
             {
               label: 'Info für Eltern',
-              to: '/docs/info-fuer-eltern',
+              to: '/info-fuer-eltern',
             },
           ],
         },
@@ -123,15 +109,6 @@ const config: Config = {
             {
               label: 'GitHub Discussions',
               href: 'https://github.com/levino/coding-class/discussions',
-            },
-          ],
-        },
-        {
-          title: 'Mehr',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
             },
           ],
         },
