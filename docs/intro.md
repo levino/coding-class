@@ -22,7 +22,7 @@ In diesem Kurs lernst du nicht nur irgendeine Programmiersprache. Du lernst:
 Du bist neu hier? Super! Schau dir diese Seiten an:
 
 1. **[Kursinhalte](/kurs-inhalte)** - Was lernst du im Kurs?
-2. **[Erste Schritte](#erste-schritte)** - Wie geht es los?
+2. **[Erste Schritte](#️-erste-schritte)** - Wie geht es los?
 
 ### Für Eltern
 
