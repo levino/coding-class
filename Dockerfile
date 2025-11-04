@@ -1,26 +1,31 @@
-FROM node:alpine AS builder
+# Build stage
+FROM node:22-alpine AS builder
 
 WORKDIR /usr/src/app
 
+# Copy package files
 COPY package.json package-lock.json ./
 
+# Install dependencies
 RUN npm ci
-# Copy the rest of the source files into the image.
+
+# Copy the rest of the source files
 COPY . .
 
+# Build the Docusaurus site
 RUN npm run build
 
-FROM ghcr.io/levino/levins-pocketbase-auth-layer:v1
+# Production stage - serve with nginx
+FROM nginx:alpine
 
-ENV POCKETBASE_URL=https://api.levinkeller.de
-ENV POCKETBASE_GROUP=example
-ENV PORT=8000
-EXPOSE 8000
+# Copy built files to nginx html directory
+COPY --from=builder /usr/src/app/build /usr/share/nginx/html
 
-# Copy the built files from the builder stage
-COPY --from=builder /usr/src/app/build /app/build
+# Copy custom nginx configuration if needed
+# COPY nginx.conf /etc/nginx/nginx.conf
 
-COPY --from=builder /usr/src/app/node_modules/pocketbase/dist/pocketbase.umd.js /app/build/public/
+# Expose port 80
+EXPOSE 80
 
-# Start the Node.js application
-CMD ["npm", "run", "start"]
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]

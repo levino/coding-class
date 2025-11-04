@@ -1,41 +1,30 @@
-# Website
+# Coding-Kurs für Kinder
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Öffentliche Kurs-Website für einen Coding-Kurs, erstellt mit [Docusaurus](https://docusaurus.io/).
 
-## Installation
-
-```bash
-yarn
-```
-
-## Local Development
+## Entwicklung
 
 ```bash
-yarn start
+npm install
+npm start
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Build-Dateien sind dann in `build/` verfügbar.
+
+## Docker
+
+```bash
+docker compose up --build
+```
+
+Website läuft auf `http://localhost:8080`
 
 ## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Standard Docusaurus Deployment-Methoden werden unterstützt (GitHub Pages, Vercel, Netlify, etc.).
