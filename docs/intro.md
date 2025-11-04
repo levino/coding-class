@@ -30,6 +30,8 @@ Möchtest du mehr über den Kurs erfahren?
 
 - **[Info für Eltern](/info-fuer-eltern)** - Alle Details zu Format, Hardware und Inhalten
 
+**Hinweis:** Dieser Kurs richtet sich vorrangig an Kinder, deren Eltern den Kursleiter persönlich kennen (z.B. Klassenkamerad:innen, Kinder aus dem persönlichen Umfeld).
+
 ## 🛠️ Erste Schritte
 
 Bevor du richtig loslegen kannst, brauchst du ein paar Dinge:

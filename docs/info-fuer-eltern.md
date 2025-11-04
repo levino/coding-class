@@ -10,6 +10,16 @@ Willkommen beim Coding-Kurs für Kinder! Diese Seite enthält alle wichtigen Inf
 
 Dieser **kostenlose** Kurs vermittelt Kindern die Grundlagen der Softwareentwicklung auf eine praktische und altersgerechte Weise. Der Fokus liegt auf modernen Entwicklungswerkzeugen und -methoden, die auch in der professionellen Softwareentwicklung verwendet werden.
 
+### Für wen ist dieser Kurs?
+
+Dieser Kurs richtet sich **vorrangig an Kinder, deren Eltern mich persönlich kennen**. Dazu gehören zum Beispiel:
+
+- Klassenkamerad:innen meiner eigenen Kinder
+- Kinder von Eltern aus meinem persönlichen Umfeld (z.B. aus dem Dorf, in dem ich wohne)
+- Kinder von Freund:innen und Bekannten
+
+Der Kurs ist bewusst als **persönliches Angebot** konzipiert und basiert auf Vertrauen und direktem Kontakt. Dies ermöglicht eine enge Betreuung und individuelle Unterstützung.
+
 ### Warum nicht Scratch, Blockly oder ähnliche visuelle Tools?
 
 Viele Kinder-Programmierkurse nutzen visuelle Programmierumgebungen wie Scratch. Das ist ein guter erster Kontakt mit Programmierkonzepten, führt aber oft in die **"Scratch-Falle"**:
