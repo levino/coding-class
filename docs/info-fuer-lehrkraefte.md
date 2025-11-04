@@ -8,6 +8,76 @@ Diese Seite richtet sich an Lehrkräfte, Pädagogen und andere Bildungseinrichtu
 
 ## Konzept und Philosophie
 
+### Programmieren, nicht Informatik
+
+**Wichtige Unterscheidung:** Dies ist ein **Programmierkurs**, kein Informatik-Kurs.
+
+**Was wir NICHT machen:**
+- Höhere Informatik-Konzepte
+- Komplexe Algorithmen (Sortieralgorithmen, Pledge-Algorithmus für Labyrinth-Navigation, etc.)
+- Theoretische Computergrundlagen
+- Akademische Abstraktion
+
+**Was wir MACHEN:**
+- Kinder lernen die **verschiedenen Ebenen der Programmierung**:
+  1. **Versionskontrolle** (Git) - Wie verwalte ich meinen Code?
+  2. **Markup-Sprachen/Programmiersprachen** (Typst, Markdown, React) - Wie schreibe ich Code?
+  3. **Resultierendes Ergebnis** (PDF-Dokument, Webseite) - Was entsteht aus meinem Code?
+
+### Das Problem typischer Programmierkurse
+
+Viele Kinder-Programmierkurse leiden unter einem fundamentalen Problem: **zu hohe Abstraktionsebene**.
+
+**Typisches Szenario:**
+- Kinder programmieren in einer speziellen Umgebung (z.B. Scratch auf Schulcomputern)
+- Die Ergebnisse existieren nur in dieser geschlossenen Welt
+- Kinder können ihre Arbeit NICHT teilen mit:
+  - Oma und Opa
+  - Freunden auf dem Pausenhof
+  - Tante und Onkel
+  - Zu Hause auf anderen Geräten
+
+**Das Resultat:**
+- Geringe gefühlte Wirksamkeit
+- "Was ich mache, ist nicht wirklich real"
+- Mangelnde Motivation
+- Keine Verbindung zur echten Welt
+
+### Unsere Lösung: Gefühlte Wirksamkeit durch echte Ergebnisse
+
+**Der Schlüssel:** Kinder erstellen Dinge, die **in der echten Welt existieren** und die sie **teilen können**.
+
+**Was normalerweise als "Beiwerk" gilt, ist für uns ESSENTIELL:**
+
+1. **Kompilieren** - Code wird zu einem echten Ergebnis (PDF, Webseite)
+2. **Hosting** - Die Webseite ist im Internet verfügbar
+3. **Domains** - Eine richtige Adresse (z.B. `max-projekt.de`)
+4. **Continuous Deployment** - Änderungen gehen automatisch live
+5. **Apps** - Etwas, das man auf dem Handy öffnen kann
+6. **Authentifizierung** - "Meine" Inhalte vs. andere Nutzer
+
+**Warum das essentiell ist:**
+
+Diese technischen Details ermöglichen es Kindern:
+- Ihre Großeltern die selbst erstellte Webseite zu zeigen
+- Freunden den Link zu schicken: "Schau mal, was ich gemacht habe!"
+- Zu Hause am Tablet das Ergebnis zu sehen
+- Stolz zu sein auf etwas **Echtes**
+
+**Beispiel-Szenario:**
+
+❌ **Typischer Kurs:**
+> "Ich habe heute in Scratch ein Spiel programmiert!"
+> "Cool, kann ich es sehen?"
+> "Nee, geht nur auf dem Computer in der Schule..."
+
+✅ **Unser Kurs:**
+> "Ich habe heute eine Webseite über mein Hobby gemacht!"
+> "Cool, kann ich es sehen?"
+> "Klar! Hier, öffne mal: www.max-fussball.de"
+
+**Der Unterschied:** Im zweiten Fall fühlt das Kind echte Wirksamkeit. Es hat etwas geschaffen, das **real ist**, das **andere sehen können**, das **in der Welt existiert**.
+
 ### Direkt zu echten Tools
 
 Dieser Kurs verfolgt einen **radikal anderen Ansatz** als die meisten Kinder-Programmierkurse:
@@ -239,6 +309,41 @@ Die Arbeitswelt bewegt sich weg von Office:
 3. React
 4. Astro
 
+### Die Ebenen der Programmierung im Kurs
+
+Ein zentrales Konzept dieses Kurses ist, dass Kinder die **verschiedenen Ebenen** verstehen lernen, die zusammenwirken:
+
+**Ebene 1: Versionskontrolle (Git)**
+- Wo speichere ich meinen Code?
+- Wie verfolge ich Änderungen?
+- Wie teile ich mit anderen?
+
+**Ebene 2: Code schreiben (Typst, Markdown, React)**
+- Wie drücke ich aus, was ich möchte?
+- Welche Syntax verwende ich?
+- Wie strukturiere ich meinen Code?
+
+**Ebene 3: Kompilierung/Build**
+- Wie wird aus meinem Code ein Ergebnis?
+- Was passiert im Hintergrund?
+- Warum sieht das Ergebnis so aus?
+
+**Ebene 4: Deployment/Hosting**
+- Wie kommt mein Ergebnis ins Internet?
+- Wo "lebt" meine Webseite?
+- Wie können andere darauf zugreifen?
+
+**Ebene 5: Teilen und Nutzen**
+- Wie können andere meine Arbeit sehen?
+- Wie funktioniert eine Domain?
+- Wie kann ich Zugriff kontrollieren?
+
+**Wichtig:** Diese technischen Details sind KEINE "nice-to-have" Extras, sondern **essentielle Grundlagen** für:
+- Gefühlte Wirksamkeit
+- Motivation
+- Verständnis der echten Welt
+- Praktische Anwendbarkeit
+
 ### Asynchrones Lernen
 
 Der Kurs ist bewusst **asynchron** aufgebaut:
@@ -327,21 +432,43 @@ Der Kurs ist bewusst **asynchron** aufgebaut:
 
 ## Pädagogische Prinzipien
 
-### 1. Hands-On Learning
+### 1. Gefühlte Wirksamkeit an erster Stelle
+
+**Das wichtigste Prinzip:** Kinder müssen **fühlen**, dass ihre Arbeit etwas bewirkt.
+
+**Warum das entscheidend ist:**
+- Motivation entsteht durch echte Ergebnisse
+- "Ich habe etwas erschaffen, das existiert"
+- Andere Menschen können meine Arbeit sehen und nutzen
+- Stolz und Selbstbewusstsein durch echte Leistung
+
+**Wie wir das umsetzen:**
+- Jedes Projekt hat ein **teilbares Ergebnis** (PDF, Webseite, Link)
+- Kinder können ihre Arbeit Freunden und Familie zeigen
+- Ergebnisse sind auf verschiedenen Geräten zugänglich
+- Keine "geschlossene Schulwelt", sondern echte Online-Präsenz
+
+**Konkrete Beispiele:**
+- Ein Typst-PDF kann per Email an Oma geschickt werden
+- Eine Webseite hat eine echte URL, die auf dem Pausenhof geteilt werden kann
+- Ein React-Projekt kann auf dem Handy der Eltern geöffnet werden
+- GitHub-Profil zeigt echte Arbeit (wie ein Portfolio)
+
+### 2. Hands-On Learning
 
 Kinder lernen durch **praktisches Tun**:
 - Sofort echte Projekte erstellen
 - Nicht nur Theorie
 - Experimentieren ist erwünscht
 
-### 2. Fehlerkultur
+### 3. Fehlerkultur
 
 Fehler sind **Teil des Lernprozesses**:
 - Git ermöglicht risikofreies Experimentieren
 - Fehler können rückgängig gemacht werden
 - Fehler sind Lernchancen, keine Misserfolge
 
-### 3. Selbstständigkeit
+### 4. Selbstständigkeit
 
 Kinder lernen, **sich selbst zu helfen**:
 - Dokumentation lesen
@@ -349,14 +476,14 @@ Kinder lernen, **sich selbst zu helfen**:
 - Fragen strukturiert stellen
 - Issues erstellen
 
-### 4. Echte Tools = Echtes Lernen
+### 5. Echte Tools = Echtes Lernen
 
 Keine "Spielzeug-Tools":
 - Gleiche Werkzeuge wie professionelle Entwickler
 - Übertragbare Fähigkeiten
 - Vorbereitung auf echte Entwicklung
 
-### 5. Individuelles Tempo
+### 6. Individuelles Tempo
 
 Jedes Kind ist anders:
 - Keine festen Zeitpläne
